@@ -31,6 +31,9 @@ public class Sylaby {
                 }
                 if (tym=='i') {
                     ilosc_i++;
+                    if (slowo.charAt(j-1)=='n'||slowo.charAt(j-1)=='s') {
+                        ilosc_i--;
+                    }
                 }
                 if (tym=='o') {
                     ilosc_o++;
